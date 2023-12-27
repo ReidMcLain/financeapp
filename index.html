@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <label for="inputValue">Present Value</label>
+    <input type="number" id="inputValue" placeholder="Current Value">
+    <br>
+    <label for="interestRate">Interest</label>
+    <input type="number" id="interestRate" placeholder="Interest">
+    <br>
+    <label for="years">Years</label>
+    <input type="number" id="years" placeholder="Years compounding">
+    <br>
+    <label for="additionalAmount">Contributions</label>
+    <input type="number" id="additionalAmount" placeholder="Annual Contributions">
+    <br>
+    <button type="button" onclick="handleButtonClick()">Calculate Future Value</button>
+    <br>
+    <div id="result"></div>
+</body>
+</html>
