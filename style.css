@@ -1,0 +1,39 @@
+body {
+    background-color: #f5e7d5;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #8b4513; /* SaddleBrown */
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #8b4513;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #654321; /* DarkBrown */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #8b4513;
+}
+
