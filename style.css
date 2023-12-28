@@ -2,6 +2,8 @@ body {
     background-color: #f5e7d5;
     font-family: 'Arial', sans-serif;
     text-align: center;
+    justify-content: center;
+    margin: 0, auto;
 }
 
 label {
